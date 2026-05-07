@@ -58,10 +58,10 @@
 包含两个空间：
 
 1. 文献知识库  
-路径：`/Users/shushan/Downloads/obsidian/社会学文献库`
+路径：`<LIT_VAULT_ROOT>`
 
 2. 改论文工作区  
-路径：`/Users/shushan/Downloads/obsidian/改论文`
+路径：`<EDIT_ROOT>`
 
 这两个空间必须分开：
 - 文献阅读产物进“社会学文献库”
@@ -272,7 +272,7 @@ Create structured notes in the project folders instead of keeping everything onl
 - 非文献阅读执行性成果不要混入文献知识库
 
 如果对方要完全照搬，建议直接让 Codex 复制当前文件：
-- [README_workflow.md](/Users/shushan/Downloads/obsidian/社会学文献库/01_工作流与规范/README_workflow.md)
+- [README_workflow.md](<LIT_VAULT_ROOT>/01_工作流与规范/README_workflow.md)
 
 ---
 
@@ -307,7 +307,7 @@ Create structured notes in the project folders instead of keeping everything onl
 
 #### 1. SKILL.md
 内容建议直接复制当前版本：
-- [SKILL.md](/Users/shushan/.codex/skills/du-wen-xian/SKILL.md)
+- [SKILL.md](<CODEX_HOME>/skills/du-wen-xian/SKILL.md)
 
 该 skill 的不可缺少规则：
 
@@ -360,10 +360,10 @@ python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex
 4. `research_gap_memo_template.md`
 
 如果对方想直接照搬当前版本，可以复制当前文件：
-- [single_paper_note_template.md](/Users/shushan/Downloads/obsidian/社会学文献库/04_模板与比较笔记/single_paper_note_template.md)
-- [comparative_literature_review_template.md](/Users/shushan/Downloads/obsidian/社会学文献库/04_模板与比较笔记/comparative_literature_review_template.md)
-- [draft_editing_report_template.md](/Users/shushan/Downloads/obsidian/社会学文献库/04_模板与比较笔记/draft_editing_report_template.md)
-- [research_gap_memo_template.md](/Users/shushan/Downloads/obsidian/社会学文献库/04_模板与比较笔记/research_gap_memo_template.md)
+- [single_paper_note_template.md](<LIT_VAULT_ROOT>/04_模板与比较笔记/single_paper_note_template.md)
+- [comparative_literature_review_template.md](<LIT_VAULT_ROOT>/04_模板与比较笔记/comparative_literature_review_template.md)
+- [draft_editing_report_template.md](<LIT_VAULT_ROOT>/04_模板与比较笔记/draft_editing_report_template.md)
+- [research_gap_memo_template.md](<LIT_VAULT_ROOT>/04_模板与比较笔记/research_gap_memo_template.md)
 
 ---
 
@@ -381,9 +381,9 @@ python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex
 ### 当前已存在的高价值总览文档
 建议一并复制：
 
-- [知识库导航.md](/Users/shushan/Downloads/obsidian/社会学文献库/00_导航/知识库导航.md)
-- [社会学知识地图_104篇论文版.md](/Users/shushan/Downloads/obsidian/社会学文献库/06_索引与清单/社会学知识地图_104篇论文版.md)
-- [顶刊社会学论文写作特征_104篇实例版.md](/Users/shushan/Downloads/obsidian/社会学文献库/06_索引与清单/顶刊社会学论文写作特征_104篇实例版.md)
+- [知识库导航.md](<LIT_VAULT_ROOT>/00_导航/知识库导航.md)
+- [社会学知识地图_104篇论文版.md](<LIT_VAULT_ROOT>/06_索引与清单/社会学知识地图_104篇论文版.md)
+- [顶刊社会学论文写作特征_104篇实例版.md](<LIT_VAULT_ROOT>/06_索引与清单/顶刊社会学论文写作特征_104篇实例版.md)
 
 ---
 
@@ -419,7 +419,7 @@ python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex
 ```
 
 如果对方要复现当前这套改稿结构，可参考：
-- `/Users/shushan/Downloads/obsidian/改论文/欺上瞒下/`
+- `<EDIT_ROOT>/<项目名>/`
 
 ---
 
