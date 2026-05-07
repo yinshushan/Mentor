@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mentor"
+  short_description: "初始化社会学文献库与改稿工作区"
+  default_prompt: "Use $mentor to initialize my sociology literature system."
+policy:
+  allow_implicit_invocation: true

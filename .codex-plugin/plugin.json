@@ -1,0 +1,40 @@
+{
+  "name": "mentor",
+  "version": "0.1.0",
+  "description": "A Codex plugin for initializing and running a sociology literature vault and paper-revision mentor workflow.",
+  "author": {
+    "name": "yinshushan",
+    "email": "yinshushan2015@126.com",
+    "url": "https://github.com/yinshushan"
+  },
+  "homepage": "https://github.com/yinshushan/Mentor",
+  "repository": "https://github.com/yinshushan/Mentor",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skill",
+    "sociology",
+    "literature-review",
+    "obsidian",
+    "academic-writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mentor",
+    "shortDescription": "Sociology literature and paper-revision mentor for Codex.",
+    "longDescription": "Mentor turns Codex into a sociology research assistant, literature-system builder, and academic revision partner. It includes a setup skill and a batch literature-reading skill designed for Obsidian-first workflows.",
+    "developerName": "yinshushan",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yinshushan/Mentor",
+    "defaultPrompt": [
+      "Use $mentor to initialize my sociology literature system.",
+      "Use $du-wen-xian to process my paper folder.",
+      "Use $mentor to create an Obsidian-first revision workspace."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
