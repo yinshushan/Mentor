@@ -34,7 +34,8 @@ Or run the installer script directly:
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo yinshushan/Mentor \
-  --path skills/mentor skills/du-wen-xian
+  --path skills/mentor skills/du-wen-xian \
+  --method git
 ```
 
 Restart Codex after installation.
