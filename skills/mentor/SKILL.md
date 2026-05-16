@@ -7,6 +7,8 @@ description: "Initialize or reproduce the Mentor Codex system: a sociology liter
 
 Mentor is a portable Codex setup workflow for sociology literature reading, Obsidian knowledge-base construction, and paper revision.
 
+Current version: v2.0.0, with full-paper close reading mode for the `$du-wen-xian` literature-reading skill.
+
 ## What This Skill Does
 
 Use this skill to:
@@ -14,6 +16,7 @@ Use this skill to:
 - create a project-level `README_workflow.md`
 - create an Obsidian-first literature vault structure
 - create note templates, indexes, and navigation files
+- create the v2.0 full-paper close reading rule note in the workflow directory
 - create a separate paper-revision workspace
 - write a reusable Mentor config that `$du-wen-xian` can read later
 
@@ -57,6 +60,7 @@ Use $du-wen-xian to process my literature folder.
 - Do not mix paper-revision execution files into the literature vault.
 - Do not fabricate claims about unread papers.
 - Keep author claims, text-based inference, and your evaluation visibly separate.
+- Do not summarize a paper from abstract, introduction, or metadata alone; use `$du-wen-xian` full-paper close reading mode for literature notes.
 
 ## Reference
 

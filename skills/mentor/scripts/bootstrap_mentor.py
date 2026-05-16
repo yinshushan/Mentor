@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Iterable
 
 
-VERSION = "0.1.0"
+VERSION = "2.0.0"
 LIT_DIRS = [
     "00_导航",
     "01_工作流与规范",
@@ -98,6 +98,7 @@ def main() -> int:
 
     results.append(write_text(lit_vault_root / "01_工作流与规范" / "AGENTS.md", read_template("AGENTS.md"), force=args.force))
     results.append(write_text(lit_vault_root / "01_工作流与规范" / "README_workflow.md", read_template("README_workflow.md"), force=args.force))
+    results.append(write_text(lit_vault_root / "01_工作流与规范" / "全文精读强制规则.md", read_template("全文精读强制规则.md"), force=args.force))
     results.append(write_text(lit_vault_root / "00_导航" / "知识库导航.md", read_template("知识库导航.md"), force=args.force))
     results.append(write_text(lit_vault_root / "06_索引与清单" / "paper_inventory.csv", read_template("paper_inventory.csv"), force=args.force))
     results.append(write_text(lit_vault_root / "06_索引与清单" / "concepts_index.md", read_template("concepts_index.md"), force=args.force))
