@@ -17,10 +17,18 @@ Mentor is an Obsidian-first research workflow. Durable outputs should become fil
 
 1. Do not summarize the whole library at once; work in batches.
 2. Default pilot batch size is 5 papers.
-3. Read enough text to support each judgment before writing a note.
+3. Use full-paper close reading mode before writing a note.
 4. Separate author claims, text-based inference, and your evaluation.
 5. Mark partial reads honestly.
 6. Update indexes after each batch.
+
+## Full-Paper Close Reading Mode
+
+The v2.0 reading workflow forbids summarizing a paper only from the abstract, introduction, metadata, or surface-level findings. For each paper, first scan the article structure, then read body sections progressively before producing a summary.
+
+Each important judgment must identify its body-text basis: the section, material type, case, interview fragment, fieldwork passage, discussion move, or theoretical analysis that supports it. If only the abstract, introduction, or metadata was readable, state: `当前分析主要来自摘要或前言，正文尚未充分读取。`
+
+For long papers, use a segmented close-reading sequence: structure map, section-by-section reading, concept synthesis, hidden-argument identification, and final whole-paper analysis. If PDF parsing is incomplete, state which parts were read successfully and which may be missing.
 
 ## Output Boundaries
 

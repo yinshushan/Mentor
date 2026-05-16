@@ -1,7 +1,7 @@
 {
   "name": "mentor",
-  "version": "0.1.0",
-  "description": "A Codex plugin for initializing and running a sociology literature vault and paper-revision mentor workflow.",
+  "version": "2.0.0",
+  "description": "A Codex plugin for sociology literature close reading, Obsidian knowledge-base building, and paper-revision mentoring.",
   "author": {
     "name": "yinshushan",
     "email": "yinshushan2015@126.com",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Mentor",
     "shortDescription": "Sociology literature and paper-revision mentor for Codex.",
-    "longDescription": "Mentor turns Codex into a sociology research assistant, literature-system builder, and academic revision partner. It includes a setup skill and a batch literature-reading skill designed for Obsidian-first workflows.",
+    "longDescription": "Mentor turns Codex into a sociology research assistant, Obsidian literature-system builder, full-paper close reading partner, and academic revision mentor. Version 2.0 adds a mandatory full-paper close reading mode that prevents abstract-only summaries and requires section-by-section body evidence.",
     "developerName": "yinshushan",
     "category": "Productivity",
     "capabilities": [

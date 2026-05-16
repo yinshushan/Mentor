@@ -323,6 +323,12 @@ Create structured notes in the project folders instead of keeping everything onl
    - `04_模板与比较笔记`
    - `06_索引与清单`
 4. 改论文、回复审稿意见、对照表等产物不要混入文献知识库
+5. v2.0 必须启用全文精读模式：
+   - 禁止只根据 abstract、introduction 或 metadata 总结全文
+   - 必须先扫描全文结构，再逐节阅读正文
+   - 必须重点读取田野材料、访谈片段、案例叙事、discussion 和理论分析
+   - 每个重要判断必须说明正文依据
+   - PDF 解析不完整时必须明确说明缺失部分
 
 #### 2. agents/openai.yaml
 内容如下：
@@ -358,6 +364,7 @@ python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex
 2. `comparative_literature_review_template.md`
 3. `draft_editing_report_template.md`
 4. `research_gap_memo_template.md`
+5. `全文精读强制规则.md`
 
 如果对方想直接照搬当前版本，可以复制当前文件：
 - [single_paper_note_template.md](<LIT_VAULT_ROOT>/04_模板与比较笔记/single_paper_note_template.md)
