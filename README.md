@@ -128,3 +128,10 @@ EDIT_ROOT: ~/Documents/Obsidian/改论文
 ## Privacy Note
 
 This package installs instructions, templates, and local setup scripts. It does not upload a user's papers or notes anywhere by itself.
+
+## 版本迭代记录
+
+| 版本 | 发布时间 | 主要内容 |
+| --- | --- | --- |
+| v2.0.0 | 2026-05-16 | 新增全文精读模式；强制扫描全文结构、逐节阅读正文、标注正文证据；增加长文分段递进式精读和 PDF 解析缺失提示；强化对质性研究中田野材料、访谈片段、案例叙事和理论分析的阅读。 |
+| v1.0.0 | 2026-05-07 | 初始开源版本；提供 `$mentor` 初始化技能和 `$du-wen-xian` 读文献技能；支持 Obsidian 文献知识库、模板、索引、批次阅读和论文修改工作区。 |
